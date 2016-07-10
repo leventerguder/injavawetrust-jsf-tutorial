@@ -28,8 +28,9 @@ public class HelloAjaxBean {
 	}
 
 	public String getGreeting() {
+		// with ajax request , we wont send password property's value.
 		if (name != null && name.length() > 0) {
-			return "Welcome to www.injavawetrust.com , " + name + "!";
+			return "Welcome to www.injavawetrust.com , " + name + "!" + " password: " + password;
 		} else {
 			return "";
 		}
