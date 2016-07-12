@@ -19,7 +19,7 @@ public class HelloInjectBeanXML {
 	}
 
 	public String getSayWelcome() {
-		if ("".equals(name) || name == null || name.equals("admin")) {
+		if ("".equals(name) || name == null) {
 			return "";
 		} else {
 			// MessageBeanXML sinifinda yer alan metodu kullaniyoruz.
