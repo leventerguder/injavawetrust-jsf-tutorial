@@ -5,10 +5,11 @@
         http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
 	version="2.2">
 
-	<!-- managed-bean etiketi ile Managed Bean tanimina baslanir. managed-bean-name 
-		etiketi ile unique/tekil bir isim veririz. managed-bean-class etiketi ile 
-		sinif tanimini yapariz. managed-bean-scope etiketi ile Managed Bean icin 
-		scope tanimini yapariz. Eger property initialize edilecekse bu durumda managed-property 
+	<!--# managed-bean etiketi ile Managed Bean tanimina baslanir. 
+		# managed-bean-name etiketi ile unique/tekil bir isim veririz. 
+		# managed-bean-class etiketi ile sinif tanimini yapariz. 
+		# managed-bean-scope etiketi ile Managed Bean icin scope tanimini yapariz. 
+		# Eger property initialize edilecekse bu durumda managed-property 
 		etiketini kullaniriz. Hangi property initialize edilecekse bu durumda property-name 
 		etiketinde bunu belirtiriz. value etiketi ile ilgili degeri belirtiriz. -->
 		
