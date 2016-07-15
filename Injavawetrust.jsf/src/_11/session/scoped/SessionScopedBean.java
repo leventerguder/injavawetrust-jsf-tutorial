@@ -25,4 +25,8 @@ public class SessionScopedBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
+	public int getHashCode() {		
+		return super.hashCode();
+	}
 }
